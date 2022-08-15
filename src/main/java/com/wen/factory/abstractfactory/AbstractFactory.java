@@ -1,4 +1,4 @@
-package pattern.factory.abstractfactory;
+package com.wen.factory.abstractfactory;
 
 /**
  * <p>
@@ -11,16 +11,16 @@ package pattern.factory.abstractfactory;
 public interface AbstractFactory {
 
     /**
-     * 创建 CPU 产品
+     * 创建 CPU
      *
-     * @return CPU 产品
+     * @return CPU
      */
     Cpu createCpu();
 
     /**
-     * 创建主板产品
+     * 创建主板
      *
-     * @return 主板产品
+     * @return 主板
      */
     MainBoard createMainBoard();
 }

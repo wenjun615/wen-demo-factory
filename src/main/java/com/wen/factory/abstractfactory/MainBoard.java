@@ -1,8 +1,8 @@
-package pattern.factory.abstractfactory;
+package com.wen.factory.abstractfactory;
 
 /**
  * <p>
- * 抽象产品：主板
+ * 主板 接口
  * </p>
  *
  * @author wenjun
@@ -10,5 +10,8 @@ package pattern.factory.abstractfactory;
  */
 public interface MainBoard {
 
+    /**
+     * 安装 CPU
+     */
     void installCpu();
 }

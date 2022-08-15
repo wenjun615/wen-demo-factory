@@ -1,8 +1,8 @@
-package pattern.factory.factorymethod;
+package com.wen.factory.simplefactory;
 
 /**
  * <p>
- * 具体产品实现
+ * B 类型 CPU
  * </p>
  *
  * @author wenjun

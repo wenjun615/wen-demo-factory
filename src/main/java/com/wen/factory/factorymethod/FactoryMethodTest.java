@@ -1,8 +1,8 @@
-package pattern.factory.factorymethod;
+package com.wen.factory.factorymethod;
 
 /**
  * <p>
- * 测试类
+ * 工厂方法测试
  * </p>
  *
  * @author wenjun
@@ -11,8 +11,8 @@ package pattern.factory.factorymethod;
 public class FactoryMethodTest {
 
     public static void main(String[] args) {
-        CpuFactory factory = new ACpuFactory();
-        Cpu cpu = factory.createCpu();
+        CpuAbstractFactory aCpuFactory = new ACpuFactory();
+        Cpu cpu = aCpuFactory.createCpu();
         cpu.calculate();
     }
 }

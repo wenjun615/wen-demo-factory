@@ -1,8 +1,8 @@
-package pattern.factory.simplefactory;
+package com.wen.factory.simplefactory;
 
 /**
  * <p>
- * 测试类——调用工厂创建对象的客户端代码
+ * 简单工厂测试
  * </p>
  *
  * @author wenjun
@@ -11,7 +11,7 @@ package pattern.factory.simplefactory;
 public class SimpleFactoryTest {
 
     public static void main(String[] args) {
-        Cpu cpu = CpuFactory.createCpu(BCpu.class);
+        Cpu cpu = CpuFactory.createCpu(ACpu.class);
         cpu.calculate();
     }
 }

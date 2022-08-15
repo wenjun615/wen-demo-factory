@@ -1,14 +1,14 @@
-package pattern.factory.factorymethod;
+package com.wen.factory.factorymethod;
 
 /**
  * <p>
- * 具体工厂实现
+ * A 类型 CPU 工厂
  * </p>
  *
  * @author wenjun
  * @since 2022-06-29
  */
-public class ACpuFactory implements CpuFactory {
+public class ACpuFactory implements CpuAbstractFactory {
 
     @Override
     public Cpu createCpu() {

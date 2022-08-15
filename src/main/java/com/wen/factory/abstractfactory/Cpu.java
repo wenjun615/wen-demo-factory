@@ -1,8 +1,8 @@
-package pattern.factory.simplefactory;
+package com.wen.factory.abstractfactory;
 
 /**
  * <p>
- * 抽象产品接口
+ * CPU 接口
  * </p>
  *
  * @author wenjun

@@ -1,22 +1,22 @@
-package pattern.factory.abstractfactory;
+package com.wen.factory.abstractfactory;
 
 /**
  * <p>
- * 具体工厂
+ * B 类型工厂
  * </p>
  *
  * @author wenjun
  * @since 2022-06-29
  */
-public class AFactory implements AbstractFactory {
+public class BFactory implements AbstractFactory {
 
     @Override
     public Cpu createCpu() {
-        return new ACpu();
+        return new BCpu();
     }
 
     @Override
     public MainBoard createMainBoard() {
-        return new AMainBoard();
+        return new BMainBoard();
     }
 }

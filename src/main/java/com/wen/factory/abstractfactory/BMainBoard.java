@@ -1,8 +1,8 @@
-package pattern.factory.abstractfactory;
+package com.wen.factory.abstractfactory;
 
 /**
  * <p>
- * 具体产品
+ * B 类型主板
  * </p>
  *
  * @author wenjun
