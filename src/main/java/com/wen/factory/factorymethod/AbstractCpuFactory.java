@@ -8,7 +8,7 @@ package com.wen.factory.factorymethod;
  * @author wenjun
  * @since 2022-06-29
  */
-public interface CpuAbstractFactory {
+public interface AbstractCpuFactory {
 
     /**
      * 创建 CPU

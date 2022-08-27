@@ -8,7 +8,7 @@ package com.wen.factory.factorymethod;
  * @author wenjun
  * @since 2022-06-29
  */
-public class BCpuFactory implements CpuAbstractFactory {
+public class BCpuFactory implements AbstractCpuFactory {
 
     @Override
     public Cpu createCpu() {

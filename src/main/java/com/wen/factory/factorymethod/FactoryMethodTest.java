@@ -11,7 +11,7 @@ package com.wen.factory.factorymethod;
 public class FactoryMethodTest {
 
     public static void main(String[] args) {
-        CpuAbstractFactory aCpuFactory = new ACpuFactory();
+        AbstractCpuFactory aCpuFactory = new ACpuFactory();
         Cpu cpu = aCpuFactory.createCpu();
         cpu.calculate();
     }
